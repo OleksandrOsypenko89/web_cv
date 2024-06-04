@@ -1,8 +1,9 @@
 import {useState} from "react";
 import {sendForm} from '@emailjs/browser';
+import {Loader} from "../loader/Loader";
 import Swal from "sweetalert2";
 import "./Contact.css";
-import "./Loader.css";
+import "../loader/Loader.css";
 
 export const Contact = () => {
     const [isDisabled, setIsDisabled] = useState(false);
@@ -43,16 +44,6 @@ export const Contact = () => {
             );
 
         setIsDisabled(false);
-    }
-
-    const loader = () => {
-        return (
-            <div className="spinner">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        )
     }
 
     return (
@@ -208,7 +199,7 @@ export const Contact = () => {
                 </div>
 
                 <button type="submit" className="btn btn-primary" disabled={isDisabled}>
-                    {isDisabled ? loader() : 'Send'}
+                    {isDisabled ? <Loader/> : 'Send'}
                 </button>
 
             </form>
