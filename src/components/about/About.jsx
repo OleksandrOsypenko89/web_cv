@@ -6,15 +6,15 @@ export const About = () => {
      * https://drive.google.com/file/d/--------------id-------------------/view?usp=drive_link
      */
     const _ID_PDF = '14wKUaSKvqmTsxjg615EKosomSGgmEYNy';
+    const _URL = `https://drive.usercontent.google.com/u/0/uc?id=${_ID_PDF}&export=download`;
 
     const handleDownload = () => {
-        const link = document.createElement('a');
-        link.href = `https://drive.usercontent.google.com/u/0/uc?id=${_ID_PDF}&export=download`;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+            const link = document.createElement('a');
+            link.href = _URL;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
     }
-
 
     return (
         <section className="about" id="about">
@@ -43,9 +43,7 @@ export const About = () => {
                     solutions, I will be happy to join your team.
                 </p>
 
-                <button className="btn btn-primary" onClick={handleDownload}>
-                    Download cv
-                </button>
+                <button className="btn btn-primary" onClick={handleDownload}>Download cv</button>
 
             </div>
 

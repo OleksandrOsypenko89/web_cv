@@ -17,34 +17,36 @@ export const Skills = () => {
 
                 <h2 className="h3 section-title">What My Programming Skills Included?</h2>
 
-                <p className="section-text">
-                    <ul>
-                        <li>
-                            <strong>- Java:</strong> Backend development using Spring
-                            Framework.
-                        </li>
-                        <li>
-                            <strong>- React:</strong> Creating interactive user
-                            interfaces.
-                        </li>
-                        <li>
-                            <strong>- SQL:</strong> Database management and query
-                            optimization.
-                        </li>
-                        <li>
-                            <strong>- OOP principles:</strong> Deep understanding and
-                            application in practice.
-                        </li>
-                    </ul>
-                </p>
+                <ul className="section-text">
+                    <li>
+                        <strong>- Java:</strong> Backend development using Spring
+                        Framework.
+                    </li>
+                    <li>
+                        <strong>- React:</strong> Creating interactive user
+                        interfaces.
+                    </li>
+                    <li>
+                        <strong>- SQL:</strong> Database management and query
+                        optimization.
+                    </li>
+                    <li>
+                        <strong>- OOP principles:</strong> Deep understanding and
+                        application in practice.
+                    </li>
+                </ul>
 
                 <div className={`skills-toggle ${isActive ? 'active' : ''}`}>
                     <button className={`toggle-btn ${isActive ? '' : 'active'}`}
-                            onClick={handleToggle}>Skills
+                            onClick={handleToggle}
+                            translate={"no"}>
+                        Skills
                     </button>
 
                     <button className={`toggle-btn ${isActive ? 'active' : ''}`}
-                            onClick={handleToggle}>Tools
+                            onClick={handleToggle}
+                            translate={"no"}>
+                        Tools
                     </button>
                 </div>
 

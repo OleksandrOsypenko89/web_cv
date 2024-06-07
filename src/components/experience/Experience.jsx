@@ -44,11 +44,15 @@ export const Experience = () => {
 
                         <div className={`project-toggle ${isActive ? 'active' : ''}`}>
                             <button className={`toggle-btn ${isActive ? '' : 'active'}`}
-                                    onClick={handleToggle}>Experience
+                                    onClick={handleToggle}
+                                    translate={"no"}>
+                                Experience
                             </button>
 
                             <button className={`toggle-btn ${isActive ? 'active' : ''}`}
-                                    onClick={handleToggle}>Projects
+                                    onClick={handleToggle}
+                                    translate={"no"}>
+                                Projects
                             </button>
                         </div>
 
@@ -84,13 +88,15 @@ export const Experience = () => {
                         {projectsCards(
                             "INTERVIEW SIMULATOR",
                             "https://github.com/OleksandrOsypenko89/Interview",
-                            "A project to prepare for an interview. A database with questions and answers to technical questions and tests has been created for it. The service randomly asks questions and, based on the answers to 15 questions, gives the user the result of the interview."
+                            "I have created a project to improve interview skills. At the moment it contains 432 questions. " +
+                            "There are also tests with sample codes and answer options for the result of code execution. " +
+                            "The project assumes that the user goes to the section with interview questions and is alternately presented with 15 questions to which they must verbally give answers."
                         )}
 
                         {projectsCards(
                             "JIRA RUSH",
                             "https://github.com/OleksandrOsypenko89/project-final",
-                            "Added internalization functionality and a test container to the project. I wrote tests for it to check for errors."
+                            "I was given a tutorial assignment to fix bugs in the finished code, make changes and add functionality according to the terms."
                         )}
 
                         {projectsCards(
