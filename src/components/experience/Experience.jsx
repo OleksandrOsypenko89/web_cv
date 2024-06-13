@@ -88,33 +88,31 @@ export const Experience = () => {
                         {projectsCards(
                             "INTERVIEW SIMULATOR",
                             "https://github.com/OleksandrOsypenko89/Interview",
-                            "I have created a project to improve interview skills. At the moment it contains 432 questions. " +
-                            "There are also tests with sample codes and answer options for the result of code execution. " +
-                            "The project assumes that the user goes to the section with interview questions and is alternately presented with 15 questions to which they must verbally give answers."
+                            "In this project the possibility of new user registration is realized. The ability to log in to a personal cabinet. Algorithm that asks random questions that are in the database, viewing statistics, admin panel and feedback."
                         )}
 
                         {projectsCards(
                             "JIRA RUSH",
                             "https://github.com/OleksandrOsypenko89/project-final",
-                            "I was given a tutorial assignment to fix bugs in the finished code, make changes and add functionality according to the terms."
+                            "I added internalization functionality and a test container to the project. I put confidential information in a separate file and wrote tests to check for errors.  Created a docker-compose file to create a container the application."
                         )}
 
                         {projectsCards(
                             "TASK LIST",
                             "https://github.com/OleksandrOsypenko89/Task-list/tree/master",
-                            "Implemented a task list with a database connection. The user of this application can create new tasks, modify or delete existing ones. All content is stored in the database."
+                            "Implemented a task list with a database connection. The user can create new tasks, modify or delete existing ones. All content is stored in the database."
                         )}
 
                         {projectsCards(
                             "TELEGRAM BOT",
                             "https://github.com/OleksandrOsypenko89/SupplierMonitoringTelegramBot",
-                            "The bot experience by allowing a company employee to log in to the system with their corporate number and see the carrier's data and current tasks to be performed."
+                            "The bot works by allowing a company employee to log in to the system with their corporate number and see the carrier's data and current tasks to be performed."
                         )}
 
                         {projectsCards(
                             "HIBERNATE FINAL",
                             "https://github.com/OleksandrOsypenko89/HibernateFianal",
-                            "Optimization of frequently repeated database queries so that they are stored in Redis (in-memory key-value storage), as a result, the program runs faster."
+                            "I implemented a back end structure based on an existing database. Additionally, optimization of frequently executed queries with redis was done. The program displays the execution time of sql and redis queries."
                         )}
 
                         {projectsCards(
@@ -126,7 +124,7 @@ export const Experience = () => {
                         {projectsCards(
                             "CRYPTO ANALYSER",
                             "https://github.com/OleksandrOsypenko89/CryptoAnalyser",
-                            "The program reads the text and encrypts it with Caesar's cipher. The program is also capable of decrypting when it receives the encryption digit."
+                            "The program reads the text and encrypts it using the Caesar cipher. The program is also able to decrypt the text when it receives the cipher code."
                         )}
 
 

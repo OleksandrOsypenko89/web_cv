@@ -61,7 +61,7 @@ export const Header = () => {
     };
 
     return (
-        <header className={`header ${isScrolled ? 'active' : ''}`}>
+        <header className={`header ${isScrolled ? 'active' : ''}`} translate={"no"}>
             <div className="container">
 
                 <h1 className="h1 logo">

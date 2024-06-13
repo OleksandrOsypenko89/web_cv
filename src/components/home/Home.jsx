@@ -16,7 +16,7 @@ export const Home = () => {
 
             <div className="hero-content">
 
-                <h2 className="h2 hero-title">I'M <p>Oleksandr Osypenko</p></h2>
+                <h2 className="h2 hero-title">I'M <p translate={"no"}>Oleksandr Osypenko</p></h2>
 
                 <a href={"#contact"} className="btn btn-primary">Get in touch</a>
 
