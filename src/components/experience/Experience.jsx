@@ -42,46 +42,10 @@ export const Experience = () => {
                             detailed documentation.
                         </p>
 
-                        <div className={`project-toggle ${isActive ? 'active' : ''}`}>
-                            <button className={`toggle-btn ${isActive ? '' : 'active'}`}
-                                    onClick={handleToggle}
-                                    translate={"no"}>
-                                Experience
-                            </button>
-
-                            <button className={`toggle-btn ${isActive ? 'active' : ''}`}
-                                    onClick={handleToggle}
-                                    translate={"no"}>
-                                Projects
-                            </button>
-                        </div>
-
                     </div>
                 </li>
 
-                <li className={`experience-box ${isActive ? 'active' : ''}`}>
-
-                    <ul className="experiences-list" id="experiences">
-
-                        <li className={"project-card"}>
-                            <div className="card-banner" style={{margin: "15px"}}>
-                                <img src={"/images/experience/michelin.png"} className={"w-100"}
-                                     style={{borderRadius: "10px"}} alt="Michelin logo"/>
-                            </div>
-
-                            <p className="section-text" style={{margin: "20px"}}>
-                                I worked on a service to replace paper-based analogues of
-                                keeping records of materials on the line and reviewing the production plan. I
-                                also
-                                added functionality that informs all line workers about the reasons for the
-                                delay in
-                                case of accidents or difficulties, which reduces the response time to eliminate
-                                them.
-                            </p>
-                        </li>
-
-                    </ul>
-
+                <li className={`experience-box ${isActive ? '' : 'active'}`}>
 
                     <ul className="projects-list">
 
