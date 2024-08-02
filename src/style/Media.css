@@ -166,7 +166,9 @@
         gap: 20px;
     }
 
-    .navbar-link::before { height: 2px; }
+    .navbar-link::before {
+        height: 2px;
+    }
 
     /**
      * HERO

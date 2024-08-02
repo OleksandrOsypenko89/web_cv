@@ -7,9 +7,7 @@ export const Home = () => {
             <figure className="hero-banner" data-aos="fade-up" data-aos-delay="350">
 
                 <picture>
-                    <source srcSet={"/images/photo/hero-banner.png"} media={"(min-width: 768px)"}/>
-                    <source srcSet={"/images/photo/hero-banner-md.png"} media="(min-width: 500px)"/>
-                    <img src={"/images/photo/hero-banner-sm.png"} alt="A man in a blue shirt with a happy expression" className="w-100"/>
+                    <img src={"/images/photo/banner.PNG"} alt="A man in a blue shirt with a happy expression" className="w-100"/>
                 </picture>
 
             </figure>

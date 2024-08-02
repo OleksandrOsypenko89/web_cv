@@ -19,8 +19,8 @@ export const About = () => {
     return (
         <section className="about" id="about">
 
-            <figure className="about-banner" data-aos="fade-right" data-aos-delay="300" data-aos-once="true">
-                <img src={"/images/photo/about-banner.png"} alt="A man in a alice blue shirt with a thinking expression"
+            <figure className="about-banner" data-aos="fade-right" data-aos-delay="200" data-aos-once="true">
+                <img src={"/images/photo/about-banner.jpg"} alt="A man in a alice blue shirt with a thinking expression"
                      className="w-100"/>
             </figure>
 
