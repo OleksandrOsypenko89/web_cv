@@ -161,7 +161,7 @@
 .navbar-link::before {
     content: "";
     position: absolute;
-    top: 75%;
+    top: 80%;
     transform: translateY(-50%);
     left: 0;
     height: 5px;
