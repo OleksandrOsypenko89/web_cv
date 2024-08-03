@@ -15,7 +15,7 @@ export const Skills = () => {
 
                 <p className="section-subtitle">My skills</p>
 
-                <h2 className="h3 section-title">My Programming Skills?</h2>
+                <h2 className="h3 section-title">My Programming Skills</h2>
 
                 <ul className="section-text">
                     <li>
