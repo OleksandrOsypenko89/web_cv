@@ -32,14 +32,12 @@ export const Experience = () => {
 
                         <p className="section-subtitle">My Experience</p>
 
-                        <h2 className="h3 section-title">See My Works Which Will Amaze You!</h2>
+                        <h2 className="h3 section-title">My Experience</h2>
 
                         <p className="section-text">
-                            Throughout my career, I have gained significant experience in developing high quality
-                            software. I strive to create code that not only performs its functions, but also remains
-                            understandable and maintainable for other developers. In my work, I always follow the
-                            principles of clean code, which includes the use of clear variables, proper structuring, and
-                            detailed documentation.
+                            <strong>Professional experience:</strong> Throughout my career, I have worked on various projects, gaining significant experience in developing high-quality software that meets modern standards and user needs.<br/>
+                            <strong>Collaboration:</strong> I strive to create code that not only performs its functions, but also remains understandable and convenient for other developers, which contributes to effective teamwork and quick problem solving.<br/>
+                            <strong>Results:</strong> By adhering to these principles, my projects are of high quality, easy to maintain, and extensible, which greatly increases team efficiency.
                         </p>
 
                         <div className={`project-toggle ${isActive ? 'active' : ''}`}>
@@ -70,13 +68,27 @@ export const Experience = () => {
                             </div>
 
                             <p className="section-text" style={{margin: "20px"}}>
-                                I worked on a service to replace paper-based analogues of
-                                keeping records of materials on the line and reviewing the production plan. I
-                                also
-                                added functionality that informs all line workers about the reasons for the
-                                delay in
-                                case of accidents or difficulties, which reduces the response time to eliminate
-                                them.
+                                <h3 style={{color: "var(--color-primary)"}}>Service for replacing paper analogues of material accounting and revising the
+                                    production plan:</h3>
+                                <strong>Development and implementation:</strong> I was actively involved in the development
+                                of a service
+                                that allows replacing paper analogues of material accounting on the production line.
+                                This included the creation of a digital system for accurate and convenient material
+                                accounting, which increased efficiency and reduced errors.
+                                <br/>
+                                <strong>Production plan viewer functionality:</strong> Added functionality that allows
+                                employees to view
+                                the production plan in real time, which ensured better coordination and planning of work
+                                processes.
+                                <br/>
+                                <strong>Informing about delays:</strong> Implemented a function to automatically inform line workers
+                                about the causes of delays in case of accidents or other difficulties. This included the
+                                development of an alert system that immediately notifies the responsible employees of
+                                problems that have arisen, thereby reducing response and troubleshooting time.
+                                <br/>
+                                <strong>Results:</strong> Thanks to the implemented changes, a significant reduction in equipment
+                                downtime was achieved, employee productivity was increased, and the number of production
+                                errors was reduced.
                             </p>
                         </li>
 

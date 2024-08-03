@@ -28,7 +28,7 @@ export const About = () => {
 
                 <p className="section-subtitle">About me</p>
 
-                <h2 className="h3 section-title">Need a Developer? I can Help You!</h2>
+                <h2 className="h3 section-title">ABOUT ME</h2>
 
                 <p className="section-text">
                     I'm a Full Stack Developer with experience in developing and maintaining web projects that includes

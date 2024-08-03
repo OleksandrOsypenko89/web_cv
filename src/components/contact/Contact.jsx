@@ -53,11 +53,10 @@ export const Contact = () => {
 
                 <p className="section-subtitle">Contact</p>
 
-                <h2 className="h3 section-title">Do you have any job offers? Please Drop a Message.</h2>
+                <h2 className="h3 section-title">Contact</h2>
 
                 <p className="section-text">
-                    Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as
-                    possible.
+                    If you have any questions, suggestions or would like to discuss a potential collaboration, please use any of the contact information below or fill out the form and I will contact you myself.
                 </p>
 
                 <ul className="contact-list">
