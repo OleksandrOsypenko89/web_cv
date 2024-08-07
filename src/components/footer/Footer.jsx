@@ -26,7 +26,7 @@ export const Footer = () => {
 
                     <p className="h1 logo">
                         <a href={"#top"}>
-                            Full stack developer<span>.</span>
+                            Java Fullstack Developer<span>.</span>
                         </a>
                     </p>
 

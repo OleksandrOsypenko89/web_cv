@@ -5,7 +5,7 @@ export const About = () => {
     /**
      * https://drive.google.com/file/d/--------------id-------------------/view?usp=drive_link
      */
-    const _ID_PDF = '1EPmxf6YeNduLTW2N62Oe-jSwy67f9U4C';
+    const _ID_PDF = '1s6Cj8DbK2GcxuXYkmYBVHjEtekkj0zny';
     const _URL = `https://drive.usercontent.google.com/u/0/uc?id=${_ID_PDF}&export=download`;
 
     const handleDownload = () => {
@@ -31,7 +31,7 @@ export const About = () => {
                 <h2 className="h3 section-title">ABOUT ME</h2>
 
                 <p className="section-text">
-                    I'm a Full Stack Developer with experience in developing and maintaining web projects that includes
+                    I'm a Java Fullstack Developer with experience in developing and maintaining web projects that includes
                     the use of Java, Spring, React, and SQL. My passion for programming is backed by a strong foundation
                     in Java development and a deep understanding of object-oriented principles. I'm always eager to
                     learn new technologies, tools, and approaches that help create efficient, clean, and maintainable
