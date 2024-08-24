@@ -1,12 +1,6 @@
-import {useState} from "react";
 import "./Experience.css";
 
 export const Experience = () => {
-    const [isActive, setIsActive] = useState(false);
-
-    const handleToggle = () => {
-        setIsActive(!isActive);
-    };
 
     const projectsCards = (title, link, text) => {
         return (
@@ -35,65 +29,20 @@ export const Experience = () => {
                         <h2 className="h3 section-title">My Experience</h2>
 
                         <p className="section-text">
-                            <strong>Professional experience:</strong> Throughout my career, I have worked on various projects, gaining significant experience in developing high-quality software that meets modern standards and user needs.<br/>
-                            <strong>Collaboration:</strong> I strive to create code that not only performs its functions, but also remains understandable and convenient for other developers, which contributes to effective teamwork and quick problem solving.<br/>
-                            <strong>Results:</strong> By adhering to these principles, my projects are of high quality, easy to maintain, and extensible, which greatly increases team efficiency.
+                            <strong>Professional experience:</strong> I have worked on various projects, gaining
+                            significant experience in developing quality software that meets modern standards and user
+                            needs.<br/>
+                            <strong>Collaboration:</strong> I strive to create code that not only performs its
+                            functions, but also remains understandable and convenient for other developers, which
+                            contributes to effective teamwork and quick problem solving.<br/>
+                            <strong>Results:</strong> By adhering to these principles, my projects are of high quality,
+                            easy to maintain, and extensible, which greatly increases team efficiency.
                         </p>
-
-                        <div className={`project-toggle ${isActive ? 'active' : ''}`}>
-                            <button className={`toggle-btn ${isActive ? '' : 'active'}`}
-                                    onClick={handleToggle}
-                                    translate={"no"}>
-                                Experience
-                            </button>
-
-                            <button className={`toggle-btn ${isActive ? 'active' : ''}`}
-                                    onClick={handleToggle}
-                                    translate={"no"}>
-                                Projects
-                            </button>
-                        </div>
 
                     </div>
                 </li>
 
-                <li className={`experience-box ${isActive ? 'active' : ''}`}>
-
-                    <ul className="experiences-list" id="experiences">
-
-                        <li className={"project-card"}>
-                            <div className="card-banner" style={{margin: "15px"}}>
-                                <img src={"/images/experience/michelin.png"} className={"w-100"}
-                                     style={{borderRadius: "10px"}} alt="Michelin logo"/>
-                            </div>
-
-                            <p className="section-text" style={{margin: "20px"}}>
-                                <h3 style={{color: "var(--color-primary)"}}>Service for replacing paper analogues of material accounting and revising the
-                                    production plan:</h3>
-                                <strong>Development and implementation:</strong> I was actively involved in the development
-                                of a service
-                                that allows replacing paper analogues of material accounting on the production line.
-                                This included the creation of a digital system for accurate and convenient material
-                                accounting, which increased efficiency and reduced errors.
-                                <br/>
-                                <strong>Production plan viewer functionality:</strong> Added functionality that allows
-                                employees to view
-                                the production plan in real time, which ensured better coordination and planning of work
-                                processes.
-                                <br/>
-                                <strong>Informing about delays:</strong> Implemented a function to automatically inform line workers
-                                about the causes of delays in case of accidents or other difficulties. This included the
-                                development of an alert system that immediately notifies the responsible employees of
-                                problems that have arisen, thereby reducing response and troubleshooting time.
-                                <br/>
-                                <strong>Results:</strong> Thanks to the implemented changes, a significant reduction in equipment
-                                downtime was achieved, employee productivity was increased, and the number of production
-                                errors was reduced.
-                            </p>
-                        </li>
-
-                    </ul>
-
+                <li className={'experience-box active'}>
 
                     <ul className="projects-list">
 
@@ -138,7 +87,6 @@ export const Experience = () => {
                             "https://github.com/OleksandrOsypenko89/CryptoAnalyser",
                             "The program reads the text and encrypts it using the Caesar cipher. The program is also able to decrypt the text when it receives the cipher code."
                         )}
-
 
                         <li>
                             <button className="load-more">

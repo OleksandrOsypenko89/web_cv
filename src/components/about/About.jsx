@@ -5,7 +5,7 @@ export const About = () => {
     /**
      * https://drive.google.com/file/d/--------------id-------------------/view?usp=drive_link
      */
-    const _ID_PDF = '1s6Cj8DbK2GcxuXYkmYBVHjEtekkj0zny';
+    const _ID_PDF = '1ad-naPkPhoAjhNfC2Srp0e52-y8MEIoN';
     const _URL = `https://drive.usercontent.google.com/u/0/uc?id=${_ID_PDF}&export=download`;
 
     const handleDownload = () => {
